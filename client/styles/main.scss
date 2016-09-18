@@ -1,0 +1,45 @@
+@import "{}/client/styles/components/_variables.scss";
+@import '{reywood:bootstrap3-sass}/bootstrap';
+
+body {
+  padding-top: 50px;
+}
+.footer-links {
+  padding-left: 0px;
+  list-style: none;
+  color: #999;
+  // text-align: center;
+  li {
+    display: inline-block;
+    position: relative;
+    margin: 0 20px;
+  }
+}
+main {
+  overflow: hidden;
+}
+.carousel.slide {
+  img {
+    max-height: 730px;
+  }
+}
+.carousel-indicators {
+  li, li.active {
+    margin: 0 10px;
+  }
+}
+.video {
+  margin-left: 0px;
+  margin-right: 0px;
+  .video-item {
+    margin-top: 6px;
+    overflow: hidden;
+    padding: 0px 3px;
+  }
+}
+.border-radius {
+  border-radius: 20px;
+}
+footer {
+  margin-top: 30px;
+}
