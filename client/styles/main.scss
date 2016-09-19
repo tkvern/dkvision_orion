@@ -1,45 +1,63 @@
-@import "{}/client/styles/components/_variables.scss";
+@import '{}/client/styles/components/_variables.scss';
 @import '{reywood:bootstrap3-sass}/bootstrap';
 
-body {
-  padding-top: 50px;
-}
 .footer-links {
-  padding-left: 0px;
+  padding-left: 0;
+
   list-style: none;
+
   color: #999;
   // text-align: center;
   li {
-    display: inline-block;
     position: relative;
+
+    display: inline-block;
+
     margin: 0 20px;
   }
 }
+
 main {
   overflow: hidden;
+
+  padding-top: 50px;
 }
+
 .carousel.slide {
   img {
     max-height: 730px;
   }
 }
+
 .carousel-indicators {
-  li, li.active {
+  li {
+    margin: 0 10px;
+    border-color: #3aafd6;
+  }
+  
+  li.active {
+    width: 14px;
+    height: 14px;
+    background-color: #3aafd6;
     margin: 0 10px;
   }
 }
+
 .video {
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-right: 0;
+  margin-left: 0;
   .video-item {
-    margin-top: 6px;
     overflow: hidden;
-    padding: 0px 3px;
+
+    margin-top: 6px;
+    padding: 0 3px;
   }
 }
+
 .border-radius {
   border-radius: 20px;
 }
+
 footer {
   margin-top: 30px;
 }

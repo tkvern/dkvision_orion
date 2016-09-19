@@ -1,6 +1,6 @@
 // Core variables and mixins
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/variables";
-@import "{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/mixins";
+@import '{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/variables';
+@import '{reywood:bootstrap3-sass}/assets/stylesheets/bootstrap/mixins';
 
 // $pink-color: rgb(251, 216, 207);
 // $pink-darken: darken($pink-color, 10%);
@@ -13,15 +13,15 @@ $link-color: $gray-darker;
 $btn-primary-bg: #3aafd6;
 $btn-primary-border: darken($btn-primary-bg, 5%);
 // $navbar-height: 50px;
-$font-family-base: "Helvetica Neue", Helvetica, "Microsoft Yahei",Arial, sans-serif;
-$icon-font-path: "/packages/reywood_bootstrap3-sass/assets/fonts/bootstrap/";
+$font-family-base: 'Helvetica Neue', Helvetica, 'Microsoft Yahei',Arial, sans-serif;
+$icon-font-path: '/packages/reywood_bootstrap3-sass/assets/fonts/bootstrap/';
 // $navbar-default-brand-color: $navbar-default-link-color;
 // $navbar-default-brand-hover-color: $pink-darken;
 
 // $navbar-default-color: $navbar-default-link-color;
 $navbar-default-bg: #fff;
 // $navbar-default-border: #fff;
-$navbar-border-radius: 0px;
+$navbar-border-radius: 0;
 
 // $navbar-default-link-color: darken(#fff, 90%);
 // $navbar-default-link-active-color: $pink-darken;
