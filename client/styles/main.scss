@@ -133,24 +133,25 @@ footer {
 }
 
 .contact {
+  margin: 0;
   // display: flex;
+
   background-color: #65c5d5;
-  margin: 0px;
   [class^=col-] {
-    padding: 0px;
+    padding: 0;
   }
 }
 
 .contact-body {
   display: flex;
-  justify-content:center;
-  align-items: center;
+
   color: #fff;
 
+  justify-content: center;
+  align-items: center;
   span {
     margin-right: 20px;
   }
-  
   .text {
     list-style: none;
     span {
@@ -160,7 +161,24 @@ footer {
       margin-right: 20px;
     }
   }
+}
 
+.carousel-join {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+
+  color: #fff;
+}
+
+.carousel-come {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+
+  margin-left: -220px;
+
+  color: #fff;
 }
 
 @media (max-width: 768px) {
