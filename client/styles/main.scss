@@ -132,6 +132,19 @@ main {
   }
 }
 
+.team-timeline {
+  background-color: #e2f0f7;
+  ul {
+    list-style: none;
+    li {
+      margin-top: 5px; margin-bottom: 30px;
+    }
+  }
+  p.h3 {
+    margin-bottom: 30px;
+  }
+}
+
 .border-radius {
   border-radius: 20px;
 }
