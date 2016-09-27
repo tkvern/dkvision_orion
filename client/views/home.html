@@ -8,18 +8,18 @@
 
     <div class="carousel-inner" role="listbox">
       <div class="item active">
-        <img src="home.jpg"  class="img-responsive" width="100%" alt="...">
+        <img src="/home.jpg"  class="img-responsive" width="100%" alt="...">
         <div class="carousel-caption">
         </div>
       </div>
       <div class="item">
-        <img src="home.jpg"  class="img-responsive" width="100%" alt="...">
+        <img src="/home.jpg"  class="img-responsive" width="100%" alt="...">
         <div class="carousel-caption">
         </div>
       </div>
 
       <div class="item">
-        <img src="home.jpg"  class="img-responsive" width="100%" alt="...">
+        <img src="/home.jpg"  class="img-responsive" width="100%" alt="...">
         <div class="carousel-caption">
         </div>
       </div>
@@ -37,7 +37,7 @@
   <div class="row video">
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video01.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video01.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -49,7 +49,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video02.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video02.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -61,7 +61,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video03.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video03.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -73,7 +73,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video02.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video02.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -85,7 +85,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video03.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video03.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -97,7 +97,7 @@
     </div>
     <div class="col-xs-12 col-sm-6 col-md-4 video-item">
       <a href="#">
-        <img src="video01.jpg" class="img-responsive" alt="Responsive image" />
+        <img src="/video01.jpg" class="img-responsive" alt="Responsive image" />
         <div>
           <p class="text-center">
             <!-- <span class="fa fa-youtube-play fa-3x"></span> -->
@@ -120,9 +120,11 @@
 
   <script type="text/javascript">
   $(function() {
-    $('.video > .video-item ').each( function() { $(this).hoverdir({
-      hoverDelay : 75
-    }); } );
+    $('.video > .video-item ').each( function() { 
+      $(this).hoverdir({
+        hoverDelay : 75
+      }); 
+    });
   });
   </script>
 </template>
